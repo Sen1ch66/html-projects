@@ -1,0 +1,48 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+.perehodyposaitu{
+    display: flex;
+    margin-left: 0;
+    padding: 5px;
+}
+header{
+    margin-left: 50px;
+    display: flex;
+}
+#zaholovok{
+    /* display: flex; */
+}
+.what{
+    margin-top: 30px;
+    cursor: alias;
+}
+nav{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.nomain{
+    margin-left: 50px;
+} 
+#golovne{
+    background-color: rgb(107, 164, 164);
+    margin-top: 20px;
+    height: 100vh;
+}
+#improvement{
+    height: 100vh;
+    background-color: rgb(182, 193, 70);
+}
+#futures{
+    height: 100vh;
+}
+#end{
+    height: 100vh;
+}
+a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 56, 32);
+    text-decoration: none;
+}
