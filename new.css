@@ -1,0 +1,40 @@
+body{
+    padding-top: 65px;
+}
+#header{
+    position: fixed;
+}
+#one img{
+    position: fixed !important;
+    width: 100px !important;
+    height: 100px !important;
+    z-index: 100;
+    left: 50px;
+    top: 68px;
+    margin-left: 50%;
+}
+.post.style2.invert .content{
+    position: relative;
+    top: -15px;
+}
+.image-relative{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0; 
+    width: 50%;
+    right: 0;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(18, 10, 10, 0.526);
+}
+.image-relative:hover .overlay{
+    display: flex;
+}
+.overlay h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.652) !important;
+}
