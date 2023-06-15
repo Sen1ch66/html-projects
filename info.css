@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(227, 15, 15);
+    font-family: 'Sigmar', cursive;
+    background: linear-gradient(90deg, rgba(21,246,153,1) 0%, rgba(9,9,121,0.9809173669467787) 78%, rgba(0,212,255,1) 100%);
+}
+header div{
+    display: block;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 22.5px;
+    margin-left: 15px;
+    border: 2px solid rgb(75, 175, 75);
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-style: oblique;
+    background: linear-gradient(90deg, rgba(92,21,246,0.9360994397759104) 48%, rgba(255,0,61,1) 100%);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.table{
+    border: 5px solid rgb(187, 9, 9);
+    /* margin-top: 20px; */
+    margin: 40px 75px 30px 75px;
+    width: 800px;
+}
+.mainPictures{
+    display: flex;
+    border: 3px solid rgb(35, 13, 13);
+}
+.mainPictures img{
+    width: 200px;
+    height: 200px;
+}
+.mainPictures h2{
+    padding: 70px 92px 50px 92px;
+    border-right: 3px dotted rgb(35, 13, 13);
+}
+.mainColors{
+    border-bottom: 3px solid rgb(35, 13, 13);
+    display: flex;
+}
+.mainColors h2{
+    border-right: 3px dotted rgb(35, 13, 13);
+    padding: 50px 100px;
+}
+.mainColors h3{
+    font-size: 10px;
+    padding: 50px;
+}
+.mainFonts{
+    display: flex;
+}
+.mainFonts h2{
+    border-right: 3px dotted rgb(35, 13, 13);
+    padding: 50px 109px;
+}
+.mainColors h2, .mainFonts h2, .mainPictures h2{
+    background-color: rgb(194, 176, 176);
+    text-align: center;
+}
+.mainFonts h3{
+    padding: 15px;
+}
+main p{
+    font-size: 20px;
+    width: 300px;
+    margin-top: 40px;
+}
